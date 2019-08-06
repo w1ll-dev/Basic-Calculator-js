@@ -1,0 +1,25 @@
+:root {
+    --border: solid 1px #888; 
+    --bg-digit: #d3d3d3;
+    --bg-digitSelec: #a9a9a9;
+    --bg-operations: #c0c0c0;
+}
+
+.button {
+    border: none;
+    outline: none;
+    background: var(--bg-digit);
+    font-size: 20px;
+}
+.button.operation {
+    background-color: var(--bg-operations);
+    color: orangered;
+}
+.button:hover {
+    transition: 0.3s;
+    background-color: var(--bg-digitSelec);
+    border-bottom: var(--border);
+    border-right: var(--border);
+}
+
+
